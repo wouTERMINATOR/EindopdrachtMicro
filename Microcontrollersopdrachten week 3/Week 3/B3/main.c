@@ -5,10 +5,11 @@
  * Author : woute
  */ 
 
-#define F_CPU 8e6
 #include <util/delay.h>
 #include <avr/interrupt.h>
 #include <avr/io.h>
+
+#define F_CPU 8e6
 
 volatile int TimerPreset = -10;
 volatile int tenthValue = 0;

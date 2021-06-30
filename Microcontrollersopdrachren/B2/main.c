@@ -5,9 +5,10 @@
  * Author : woute
  */ 
 
-#define F_CPU 8e6
 #include <avr/io.h>
 #include <util/delay.h>
+
+#define F_CPU 8e6
 
 void wait( int ms) {
 	for(int i = 0; i < ms ; i++){

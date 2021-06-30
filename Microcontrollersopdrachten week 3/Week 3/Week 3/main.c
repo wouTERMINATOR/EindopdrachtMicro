@@ -34,7 +34,7 @@ void init_4bits_mode(void) {
 	lcd_strobe_lcd_e();
 	PORTC = 0x80;
 	lcd_strobe_lcd_e();
-
+	
 	// Step 4 (table 12)
 	PORTC = 0x00;   // Display on/off control
 	lcd_strobe_lcd_e();

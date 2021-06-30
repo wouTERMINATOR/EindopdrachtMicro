@@ -5,9 +5,10 @@
  * Author : woute
  */ 
 
-#define F_CPU 8e6
 #include <avr/io.h>
 #include <util/delay.h>
+
+#define F_CPU 8e6
 
 typedef struct { 
 	unsigned char data;

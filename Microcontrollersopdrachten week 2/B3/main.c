@@ -5,10 +5,10 @@
  * Author : woute
  */ 
 
-#define F_CPU 8e6
 #include <avr/io.h>
 #include <util/delay.h>
 
+#define F_CPU 8e6
 // 7 seg
 // PORTD dp G F E D C B A
 //        y y y y x x x x
