@@ -1,2 +1,0 @@
-# EindopdrachtMicro
-Eindopdracht Microcontrollers
